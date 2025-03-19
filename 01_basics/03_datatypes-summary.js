@@ -10,3 +10,9 @@
     console.log(ANotherid);
     console.log(id==ANotherid)
     
+
+
+// ++++++++++++++++++++(memory in js)+++++++++++++++++++++++++++
+//  stack(primitive),heap(non primitive)
+// stack=>copy of a data is used 
+// heap=>direct main data is used
