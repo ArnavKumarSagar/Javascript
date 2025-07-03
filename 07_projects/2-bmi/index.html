@@ -11,9 +11,15 @@
     <div id="navbar">
     <a href="../project /index.html" aria-current="page" class="home-btn"><button>Home</button></a>
     </div>
-    <main>
-        <form action="">
-            
+    <main style="display: flex; flex-direction: column;align-items: center;">
+        <h1>BMI Calculator</h1>
+        <form action="" class="form">
+           <p><label for="height">Height(cm)</label>
+            <input type="number" class="height"></p> 
+            <p><label for="weight">Weight(kg)</label>
+            <input type="number" class="weight"></p>
+            <button>Calculate</button>
+            <div class="result">_</div>
         </form>
     </main>
   </nav>

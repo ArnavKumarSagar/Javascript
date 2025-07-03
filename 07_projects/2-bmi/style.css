@@ -10,3 +10,23 @@
   align-items: center;
 
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  
+}
+.result{
+  margin-top: 5vh;
+  font-size:20px;
+  width: 30vw;
+  background-color: rgb(233, 233, 172);
+  border-radius: 10px;
+  color:black;
+  text-align: center;
+  padding:10px;
+  
+}
