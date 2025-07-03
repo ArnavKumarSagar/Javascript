@@ -1,0 +1,81 @@
+#navbar{
+  height: 20px;
+  background-color: rgb(37, 36, 36);
+  color: white;
+  width: 100vw;
+  height: 10vw;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+}
+.main h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+        text-align: center;
+        padding-top: 15vh;
+font-family: monospace;
+}
+
+.parent{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-items:center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.parent span{
+    height: 10vh;
+
+}
+#white{
+    height: 20vh;
+    width: 20vw;
+    background-color: white;
+    border-radius: 10px;
+}
+#black{
+    height: 20vh;
+    width: 20vw;
+    background-color: black;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width:thin;
+}
+#grey{
+     height: 20vh;
+    width: 20vw;
+    background-color: grey;
+    border-radius: 10px;
+}
+#red{
+     height: 20vh;
+    width: 20vw;
+    background-color: rgb(164, 6, 6);
+    border-radius: 10px;
+}
+.random{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 30vw;
+    border-radius: 10px;
+    border:solid ;
+    flex-wrap: wrap;
+}
+.randomdiv{
+    display: flex;gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.randomdiv button{
+    border-radius: 5px;
+    border: none;
+}

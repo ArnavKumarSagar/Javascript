@@ -1,0 +1,26 @@
+#navbar{
+  height: 20px;
+  background-color: rgb(37, 36, 36);
+  color: white;
+  width: 100vw;
+  height: 10vw;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+
+}
+.main button{
+    height: 5vh;
+    width: 20vw;
+}
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
